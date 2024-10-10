@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <style>
+        nav{
+            text-align: center;
+            background-color: aqua;
+            width: 100px;
+            margin-left: 630px;
+            font-size: 25px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(255, 94, 0);
+        }
+        form{
+            text-align: center;
+            margin-left: 550px;
+            margin-top: 100px;
+            border: 2px solid red;
+            width: 250px;
+            height: 200px;
+            padding-bottom: 0px;
+            padding-top: 50px;
+            border-radius: 25px;
+            background: radial-gradient(rgb(0, 221, 29),rgba(100,220,200,0.5),rgb(0, 30, 255),rgba(255,0,0,0.8),#a3b);
+        }
+    </style>
+    <body>
+        <nav>
+          
+            <a href="/register">register</a>
+         </nav>
+         
+        <form action="/login" method="post">
+            <h1>Login Form</h1>
+           <input type="text" name="username" placeholder="username">
+           <br><br>
+           <input type="password" name="password" placeholder="password">
+           <br><br>
+           <button>Login</button>
+        </form>
+    </body>
+</html>

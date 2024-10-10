@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <style>
+        nav{
+            text-align: center;
+            background-color: aqua;
+            width: 100px;
+            margin-left: 630px;
+            font-size: 25px;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        form{
+            text-align: center;
+            margin-left: 550px;
+            margin-top: 100px;
+            border: 2px solid red;
+            width: 250px;
+            height: 200px;
+            padding-bottom: 0px;
+            padding-top: 50px;
+            border-radius: 25px;
+            background: radial-gradient(#0bd,rgba(100,220,200,0.5),#0ff,rgba(255,0,0,0.8),#a3b);
+        }
+    </style>
+    <body>
+        <nav>
+           <a href="/login">Login</a>
+        </nav>
+        <form action="/register" method="POST">
+            <h1>Register Page</h1>
+            <input type="text" name="username"
+                placeholder="username"><br><br>
+            <input type="password" name="password"
+                placeholder="password"><br><br>
+            <input type="email" name="Email"
+                placeholder="email"><br><br>
+            <button>Submit</button>
+        </form>
+</body>
+</html>
